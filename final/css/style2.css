@@ -1,0 +1,178 @@
+body {
+background-color: white;
+}
+
+#canvas {
+  position: absolute;
+  top:0;
+  margin: 0 0;
+  height: 100%;
+  width: 100%;
+  z-index:10;
+}
+
+#title{
+  height: auto;
+  text-align: center;
+  margin-bottom:5px;
+
+}
+
+h1{
+  font-family: Avara;
+  font-size: 22pt;
+  color: black;
+}
+p{
+  font-family: Avara;
+  font-size: 22pt;
+  color: black;
+  text-align: center;
+}
+
+#gallery{
+  height : 50%;
+margin:  5% 0;
+z-index:1;
+
+
+}
+
+#gallery #letterP {
+  height: 300px;
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  padding: 10px;
+}
+
+#gallery #letterE {
+    height: 300px;
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding : 10px;
+}
+
+#gallery #letterI {
+  height: 300px;
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  padding : 10px;
+}
+
+#gallery #letterN {
+  height: 300px;
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  padding : 10px;
+}
+
+#gallery #letterD {
+  height: 300px;
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  padding : 10px;
+}
+
+#gallery #letterR {
+  height: 300px;
+  width: 10%;
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  padding : 10px;
+}
+
+#gallery #letterE2 {
+    height: 300px;
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    padding : 10px;
+}
+
+#btnVersion{
+  text-align: center;
+  margin-top:5px;
+
+}
+
+span{
+  margin: 0 10%;
+  padding: 1% 3%;
+  font-family: Avara;
+  font-size: 22pt;
+  text-align: center;
+}
+
+#v1{
+  font-family:Avara2011;
+color:  #F7D358;
+}
+
+#v2{
+  font-family:Avarajan2013;
+  color:  #58ACFA;
+}
+
+#v3{
+  color:#FA5882;
+}
+
+input{
+  font-family:Avara;
+  position : absolute;
+  left:20px;
+  top:110%;
+  height:50%;
+  width:30%;
+  font-size:16pt;
+  text-align:center;
+  background : white;
+
+}
+
+
+#alphabet {
+  text-align: center;
+}
+
+.textv{
+  position:absolute;
+  top:45%;
+  left:40%;
+  font-size:300px;
+  color:white;
+  opacity:0.5;
+
+}
+
+#textv1{
+  font-family:Avara2011;
+  color: #F7D358;
+  /*text-shadow: #F7D358 1px 1px, #F7D358 -1px 1px, #F7D358 -1px -1px, #F7D358 1px -1px; */
+
+}
+
+
+#textv2{
+  font-family:Avarajan2013;
+  /*text-shadow: #58ACFA 1px 1px, #58ACFA -1px 1px, #58ACFA -1px -1px, #58ACFA 1px -1px; */
+  color: #58ACFA;
+}
+
+#textv3{
+  font-family:Avaraoct2017;
+/*  text-shadow: #FA5882 1px 1px, #FA5882 -1px 1px, #FA5882 -1px -1px, #FA5882 1px -1px; */
+  color: #FA5882;
+}
